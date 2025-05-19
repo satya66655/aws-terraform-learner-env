@@ -2,3 +2,17 @@
 output/
 pem_keys/
 
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# PEM keys and outputs
+pem_keys/
+output/
+user_creds.csv
+
+# Terraform crash files
+crash.log
